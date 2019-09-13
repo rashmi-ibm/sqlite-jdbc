@@ -11,5 +11,5 @@ if [[ "$TRAVIS_JDK_VERSION" == "oraclejdk8" ]]; then
     make;
   fi;
 else
-  make linux64 && mvn test;
+  make linux-ppc64le && mvn test;
 fi;
