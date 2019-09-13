@@ -1,5 +1,5 @@
 sudo: false
-os: linux
+os: linux-ppc64le
 dist: trusty
 
 services:
