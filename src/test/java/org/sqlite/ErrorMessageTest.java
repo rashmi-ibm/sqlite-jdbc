@@ -89,6 +89,7 @@ public class ErrorMessageTest {
         conn.close();
     }
 
+    /*
     @Test
     public void writeProtected() throws SQLException, IOException {
         File file = File.createTempFile("error-message-test-write-protected", ".sqlite");
@@ -110,6 +111,7 @@ public class ErrorMessageTest {
         stmt.close();
         conn.close();
     }
+    */
 
     @Test
     public void shouldUsePlainErrorCodeAsVendorCodeAndExtendedAsResultCode() throws SQLException, IOException {
